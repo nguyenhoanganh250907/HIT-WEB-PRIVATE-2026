@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.site-header {
+  position: fixed;
+  top: 15px;
+  left: 5%;
+  right: 5%;
+  z-index: 100;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: #595352;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: white;
+  font-weight: 500;
+}
+
+.navbar .nav-link {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar .nav-link a {
+  color: white;
+  font-size: 18px;
+}
+
+.navbar button {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  color: white;
+  background-color: #07829d;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar button:hover {
+  background-color: #007290;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background-image: url(/BTVNBuoi4/Pic/anh-ha-noi.webp);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #333;
+  background-blend-mode: overlay;
+  color: white;
+  gap: 20px;
+}
+
+.banner h1 {
+  font-size: 45px;
+}
+
+.banner p {
+  font-size: 18px;
+  max-width: 850px;
+  text-align: center;
+}
+
+.banner-link a {
+  color: #00a8ca;
+}
+
+.card {
+  padding: 50px 100px;
+}
+
+.main-card .container {
+  position: relative;
+  height: 550px;
+  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 45px;
+  color: #ffffff;
+}
+
+.card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.card-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: all 1s ease;
+}
+
+.card-content,
+.card-title,
+.card-about {
+  position: relative;
+  z-index: 2;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #e0e0e0;
+}
+
+.card-content span:last-child {
+  color: rgba(255, 255, 255, 0.719);
+  font-weight: 600;
+}
+
+.card-title h1 {
+  margin-bottom: 14px;
+  font-size: 32px;
+  font-weight: 700;
+  max-width: 750px;
+}
+
+.card-about {
+  font-size: 15px;
+  color: #d1d5db;
+  max-width: 780px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 20px;
+}
+
+.pagination a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #6769aa;
+  border-radius: 50%;
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination #dot {
+  border: none;
+  cursor: auto;
+}
+
+.pagination button {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #6769aa;
+  border-radius: 50%;
+  background-color: #6769aa;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #0a171a;
+  color: white;
+  font-size: 24px;
+  padding: 40px;
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+}
+
+.sub input {
+  width: 500px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: #252525;
+  z-index: 1;
+}
+
+.sub button {
+  height: 50px;
+  width: 100px;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: #077791;
+  color: white;
+  border: none;
+  z-index: 2;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background-color: #031013;
+  color: white;
+}
+
+.about-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info {
+  margin: 24px 0px;
+}
+
+.icon ul {
+  list-style: none;
+  font-size: 24px;
+  display: flex;
+  gap: 15px;
+}
+
+hr {
+    border-color: #333;
+    margin: 0px 50px;
+}
+
+.copyright{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
